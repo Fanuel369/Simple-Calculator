@@ -1,14 +1,16 @@
 * {
     box-sizing: border-box;
   }
-  
+
   .container {
     display: grid;
     grid-template-columns:  3rem 3rem 3rem 3rem !important;
-    grid-template-rows: auto auto auto auto !important;
-    margin-top: 8em;
-    margin-left: 34em;
+    grid-template-rows: auto auto auto auto !important; 
     grid-gap: 1em;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
   }
 
   #screen {
