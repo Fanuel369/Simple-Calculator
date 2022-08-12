@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  .container {
+    display: grid;
+    grid-template-columns:  3rem 3rem 3rem 3rem !important;
+    grid-template-rows: auto auto auto auto !important;
+    margin-top: 8em;
+    margin-left: 34em;
+    grid-gap: 1em;
+  }
+
+  #screen {
+      grid-area: 1 / 1 / 5 / 5  !important;
+      padding-top: 2em !important;
+      border-radius: 0.5em !important;
+      background-color: #DC143C;
+      color: #D3D3D3;
+      font-size: 2em !important;
+  }
+
+  .btn {
+      padding: 0.5rem;
+      border-radius: 50em;
+      border: none;
+  }
+
+  #equalto {
+    width: 13.18em;
+    background-color: #DC143C;
+  }
